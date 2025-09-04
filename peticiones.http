@@ -1,0 +1,12 @@
+@url= https://adminaulas.onrender.com
+@usuario= {{url}}/usuarios
+
+
+POST {{usuario}}
+Content-Type: application/json
+
+{
+    "mamme": "jose",
+    "email": "josesito",
+    
+}

@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes wave1 {
+  0% {
+    transform: translateX(-40%);
+  }
+  25% {
+    transform: translateX(-50%);
+  }
+  50% {
+    transform: translate(-45%);
+  }
+  100% {
+    transform: translate(-40%);
+  }
+}
+
+@keyframes wave2 {
+  0% {
+    transform: translateX(20%);
+  }
+  25% {
+    transform: translateX(-20%);
+  }
+  50% {
+    transform: translateX(-30%);
+  }
+  75% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(-10%);
+  }
+}
+
+/* Fade Up */
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fade Right */
+.fade-right {
+  opacity: 0;
+  transform: translateX(-40px);
+  animation: fadeRight 0.8s ease-out forwards;
+}
+
+@keyframes fadeRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Fade Left */
+.fade-left {
+  opacity: 0;
+  transform: translateX(40px);
+  animation: fadeLeft 0.8s ease-out forwards;
+}
+
+@keyframes fadeLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-wave1 {
+  animation: wave1 20s linear infinite;
+}
+
+li {
+  color: #011f00;
+}

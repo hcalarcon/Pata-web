@@ -1,0 +1,46 @@
+---
+import AboutCards from "./AboutCard";
+---
+
+<section
+  id="nosotros"
+  class="relative bg-gradient-to-b from-[#0A3F3F] to-[#0A2E4D]"
+>
+  <!-- Wave container -->
+  <div
+    class="absolute top-0 left-0 w-full overflow-hidden leading-[0] rotate-180"
+  >
+    <svg
+      class="absolute top-0 block w-[300%] h-80 animate-wave1 opacity-100"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1200 120"
+      preserveAspectRatio="none"
+    >
+      <path
+        d="M321.39,56.44c58-10.79,114-30.13,172-41.9C600,0,679,0,758,14.54S900,56,978,72.51s155,25.9,222,3V120H0V95.8C107,76,214,67,321.39,56.44Z"
+        fill="#011F00"></path>
+    </svg>
+    <svg
+      class="relative block w-[400%] h-70 animate-wave1 opacity-70"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1200 120"
+      preserveAspectRatio="none"
+    >
+      <path
+        d="M321.39,56.44c58-10.79,114-30.13,172-41.9C600,0,679,0,758,14.54S900,56,978,72.51s155,25.9,222,3V120H0V95.8C107,76,214,67,321.39,56.44Z"
+        fill="#011F00"></path>
+    </svg>
+  </div>
+
+  <!-- Contenido About -->
+  <div class="relative z-10 max-w-5xl mx-auto p-9 text-center">
+    <h2 class="text-4xl font-bold text-white">Sobre PATA Web</h2>
+    <p class="mt-4 text-lg text-white">
+      “En Pata Web creemos que cada negocio merece una presencia digital clara,
+      atractiva y efectiva. Nacimos con el objetivo de acercar soluciones web
+      accesibles y de calidad para emprendedores y empresas que buscan crecer en
+      internet.”
+    </p>
+  </div>
+  <AboutCards client:load />
+</section>
