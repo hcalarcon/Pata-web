@@ -10,4 +10,7 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   integrations: [react()],
+  site: "https://hcalarcon.github.io",
+  base: "/Pata-web/", // esto es importante
+  outDir: "dist",
 });
