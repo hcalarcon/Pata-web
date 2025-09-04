@@ -74,7 +74,7 @@ export default function Navbar() {
     >
       {/* Logo */}
       <a href="#top" className="flex items-center gap-2 select-none">
-        <img src="/svg/logo.svg" alt="logo" className="w-9 h-9" />
+        <img src="svg/logo.svg" alt="logo" className="w-9 h-9" />
         <p className="text-blue-600 font-bold text-xl">
           PATA <span className="text-green-600">web</span>
         </p>
