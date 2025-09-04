@@ -133,7 +133,7 @@ export default function HeroParallax() {
 
       {/* Montañas - altura ajustada para mobile */}
       <motion.img
-        src="/svg/mountains-2.svg"
+        src="svg/mountains-2.svg"
         alt=""
         className={`absolute bottom-0 w-full object-cover z-10 pointer-events-none ${
           isMobile ? "h-170 transform  sm:h-1" : "h-auto"
@@ -141,7 +141,7 @@ export default function HeroParallax() {
         style={{ y: yMountains }}
       />
       <motion.img
-        src="/svg/mountains-1.svg"
+        src="svg/mountains-1.svg"
         alt=""
         className={`absolute bottom-0 w-full object-cover z-20 pointer-events-none ${
           isMobile ? "h-170 sm:h-44" : "h-auto"
@@ -149,7 +149,7 @@ export default function HeroParallax() {
         style={{ y: yMountains }}
       />
       <motion.img
-        src="/svg/mountain.svg"
+        src="svg/mountain.svg"
         alt=""
         className={`absolute pointer-events-none bottom-0 w-full object-cover z-30 ${
           isMobile ? "h-90 sm:h-48" : "h-auto"
@@ -159,7 +159,7 @@ export default function HeroParallax() {
 
       {/* Árboles base */}
       <img
-        src="/svg/arboles.svg"
+        src="svg/arboles.svg"
         alt=""
         className={`absolute pointer-events-none bottom-0 w-full z-40 object-cover ${
           isMobile ? "h-54 sm:h-32" : "h-auto"
@@ -168,7 +168,7 @@ export default function HeroParallax() {
 
       {/* Árbol lateral - tamaño y posición responsiva */}
       <motion.img
-        src="/svg/arbol.svg"
+        src="svg/arbol.svg"
         alt=""
         className={`absolute pointer-events-none bottom-0 left-0 object-cover z-50 transform ${
           isMobile
@@ -182,7 +182,7 @@ export default function HeroParallax() {
 
       {/* Arbusto lateral - tamaño y rotación responsiva */}
       <motion.img
-        src="/svg/arbusto.svg"
+        src="svg/arbusto.svg"
         alt=""
         className={`absolute pointer-events-none bottom-0 right-0 object-cover z-50 transform ${
           isMobile
